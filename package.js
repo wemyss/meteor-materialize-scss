@@ -1,15 +1,16 @@
 // package metadata file for Meteor.js
 
 Package.describe({
-  name: 'materialize:materialize',  // http://atmospherejs.com/materialize/materialize
+  name: 'poetic:materialize-scss',  // http://atmospherejs.com/materialize/materialize
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
-  version: '0.97.3',
-  git: 'https://github.com/Dogfalo/materialize.git'
+  version: '0.97.3_0',
+  git: 'https://github.com/poetic/meteor-materialize-sass'
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('METEOR@1.2');
 
+  api.use('fourseven:scss@3.3.3');
   api.use('jquery', 'client');
   api.imply('jquery', 'client');
 
@@ -19,6 +20,10 @@ Package.onUse(function (api) {
     'dist/font/material-design-icons/Material-Design-Icons.ttf',
     'dist/font/material-design-icons/Material-Design-Icons.woff',
     'dist/font/material-design-icons/Material-Design-Icons.woff2',
+    'material-design-icons/iconfont/MaterialIcons-Regular.eot',
+    'material-design-icons/iconfont/MaterialIcons-Regular.ttf',
+    'material-design-icons/iconfont/MaterialIcons-Regular.woff',
+    'material-design-icons/iconfont/MaterialIcons-Regular.woff2',
     'dist/font/roboto/Roboto-Bold.ttf',
     'dist/font/roboto/Roboto-Bold.woff',
     'dist/font/roboto/Roboto-Bold.woff2',
@@ -37,7 +42,7 @@ Package.onUse(function (api) {
   ];
 
   addAssets(api, assets);
-  
+
   api.addFiles([
     'dist/js/materialize.js',
     'dist/css/materialize.css'
