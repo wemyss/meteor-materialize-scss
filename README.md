@@ -37,9 +37,21 @@ Javascript is automatically imported from this package.
   - index.scss is not autoupdated anymore, you need to manullay update index.scss.
 
 - 2015-06-26 upgrade to [0.97.0](https://github.com/Dogfalo/materialize/tree/v0.97.0#changelog)
-  -  Icon Change (*Breaking*):
+  - Icon Change (*Breaking*):
 
     ```<i class="mdi-content-add"></i>``` is still supported.
 
     However you should use ```<i class="material-icons">add</i>``` instead as
     metioned in the materialize [doc](http://materializecss.com/icons.html).
+
+# HOW TO UPDATE TO NEW VERSIONS OF MATERIALIZECSS
+
+```
+git checkout master
+git pull https://github.com/Dogfalo/materialize.git master
+git checkout <previous-mms-version-on-github>
+git checkout -b <next-mms-version>
+git rebase <latest-stable-materializecss-version>
+// test
+meteor publish
+```
