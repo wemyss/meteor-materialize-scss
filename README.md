@@ -10,7 +10,7 @@ Add the following lines to your last-loaded scss file (E.G. main.scss):
 ```
 // If you want to override materialize sass variables you can uncomment the following:
 // @import "{poetic:materialize-scss}/bower_components/materialize/sass/components/_color.scss";
-//$primary-color: color("blue", "lighten-2");
+// $primary-color: color("blue", "lighten-2");
 
 // import main scss file
 @import "{poetic:materialize-scss}/bower_components/materialize/sass/materialize.scss";
