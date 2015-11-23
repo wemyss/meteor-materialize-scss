@@ -52,8 +52,8 @@ $dropdown-color: $secondary-color !default;
 $dropdown-item-height: 50px !default;
 
 /*** Fonts ***/
-$roboto-font-path: "../dist/font/roboto/" !default;
-$icons-font-path: "../dist/font/material-design-icons/" !default;
+$roboto-font-path: "/packages/poetic_materialize-scss/dist/font/roboto/" !default;
+$icons-font-path: "/packages/poetic_materialize-scss/dist/font/material-design-icons/" !default;
 
 /*** Forms ***/
 // Text Inputs + Textarea
