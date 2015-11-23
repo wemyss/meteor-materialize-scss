@@ -44,8 +44,9 @@ Javascript is automatically imported from this package.
     However you should use ```<i class="material-icons">add</i>``` instead as
     metioned in the materialize [doc](http://materializecss.com/icons.html).
 
-# HOW TO UPDATE TO NEW VERSIONS OF MATERIALIZECSS
+# FOR MAINTAINERS
 
+- HOW TO UPDATE TO NEW VERSIONS OF MATERIALIZECSS
 ```
 git checkout master
 git pull https://github.com/Dogfalo/materialize.git master
