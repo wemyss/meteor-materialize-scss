@@ -3,7 +3,7 @@
 Package.describe({
   name: 'poetic:materialize-scss',  // http://atmospherejs.com/materialize/materialize
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
-  version: '1.97.3_1',
+  version: '1.97.3_2',
   git: 'https://github.com/poetic/meteor-materialize-scss'
 });
 
