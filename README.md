@@ -28,6 +28,7 @@ Javascript is automatically imported from this package.
 
 # CHANGE LOG
 
+- 2016-01-28 update to materializecss [0.97.5](https://github.com/Dogfalo/materialize/tree/v0.97.5#changelog)
 - 2015-11-22 update to materializecss [0.97.3](https://github.com/Dogfalo/materialize/tree/v0.97.3#changelog)
   - We rewrote the package as a fork and archived the previous gitrop. If you are looking for code in a version lower than 1.97.3, please check the archived [repo](https://github.com/poetic/meteor-materialize-sass-archived). (*Breaking*)
 
@@ -49,10 +50,12 @@ Javascript is automatically imported from this package.
 - HOW TO UPDATE TO NEW VERSIONS OF MATERIALIZECSS
 ```
 git checkout master
-git pull https://github.com/Dogfalo/materialize.git master
+git pull https://github.com/Dogfalo/materialize.git master --tags
 git checkout <previous-mms-version-on-github>
 git checkout -b <next-mms-version>
 git rebase <latest-stable-materializecss-version>
+// check if we need to add new files to package.js
+// change meteor package version
 // test
 meteor publish
 ```
