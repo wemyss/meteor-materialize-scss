@@ -13,7 +13,7 @@ Package.onUse(function(api) {
     api.use([
         'meteor',
         'jquery',
-        'fourseven:scss'
+        'fourseven:scss@3.4.1'
     ]);
     api.imply('jquery', 'client');
 
