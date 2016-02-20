@@ -3,7 +3,7 @@
 Package.describe({
   name: 'swemyss:materialize-scss',  // http://atmospherejs.com/materialize/materialize
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
-  version: '1.97.5_1',
+  version: '1.97.5_2',
   git: 'https://github.com/wemyss/meteor-materialize-scss'
 });
 
@@ -16,16 +16,6 @@ Package.onUse(function(api) {
         'fourseven:scss@3.4.1'
     ]);
     api.imply('jquery', 'client');
-
-    // Only use woff2 fonts
-    api.addAssets([
-        'dist/font/material-design-icons/Material-Design-Icons.woff2',
-        'dist/font/roboto/Roboto-Bold.woff2',
-        'dist/font/roboto/Roboto-Light.woff2',
-        'dist/font/roboto/Roboto-Medium.woff2',
-        'dist/font/roboto/Roboto-Regular.woff2',
-        'dist/font/roboto/Roboto-Thin.woff2',
-    ], 'client');
 
     api.addFiles([
         'dist/js/materialize.js',
@@ -47,16 +37,13 @@ Package.onUse(function(api) {
         'sass/components/_form.scss',
         'sass/components/_global.scss',
         'sass/components/_grid.scss',
-        'sass/components/_icons-material-design.scss',
         'sass/components/_materialbox.scss',
-        'sass/components/_material-icons.scss',
         'sass/components/_mixins.scss',
         'sass/components/_modal.scss',
         'sass/components/_navbar.scss',
         'sass/components/_normalize.scss',
         'sass/components/_prefixer.scss',
         'sass/components/_preloader.scss',
-        'sass/components/_roboto.scss',
         'sass/components/_sideNav.scss',
         'sass/components/_slider.scss',
         'sass/components/_table_of_contents.scss',
