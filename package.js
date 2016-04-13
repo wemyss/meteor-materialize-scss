@@ -3,6 +3,7 @@
 Package.describe({
   name: 'swemyss:materialize-scss',  // http://atmospherejs.com/materialize/materialize
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
+<<<<<<< HEAD
   version: '1.97.5_3',
   git: 'https://github.com/wemyss/meteor-materialize-scss'
 });
@@ -57,4 +58,42 @@ Package.onUse(function(api) {
     ], 'client', {
         isImport: true
     });
+=======
+  version: '0.97.6',
+  git: 'https://github.com/Dogfalo/materialize.git'
+});
+
+Package.onUse(function (api) {
+  api.versionsFrom('METEOR@1.0');
+
+  api.use('jquery', 'client');
+  api.imply('jquery', 'client');
+
+  var assets = [
+    'dist/fonts/roboto/Roboto-Bold.ttf',
+    'dist/fonts/roboto/Roboto-Bold.woff',
+    'dist/fonts/roboto/Roboto-Bold.woff2',
+    'dist/fonts/roboto/Roboto-Light.ttf',
+    'dist/fonts/roboto/Roboto-Light.woff',
+    'dist/fonts/roboto/Roboto-Light.woff2',
+    'dist/fonts/roboto/Roboto-Medium.ttf',
+    'dist/fonts/roboto/Roboto-Medium.woff',
+    'dist/fonts/roboto/Roboto-Medium.woff2',
+    'dist/fonts/roboto/Roboto-Regular.ttf',
+    'dist/fonts/roboto/Roboto-Regular.woff',
+    'dist/fonts/roboto/Roboto-Regular.woff2',
+    'dist/fonts/roboto/Roboto-Thin.ttf',
+    'dist/fonts/roboto/Roboto-Thin.woff',
+    'dist/fonts/roboto/Roboto-Thin.woff2',
+  ];
+
+  addAssets(api, assets);
+  
+  api.addFiles([
+    'dist/js/materialize.js',
+    'dist/css/materialize.css'
+  ], 'client');
+
+  api.export('Materialize', 'client');
+>>>>>>> 489279f23aaa0c7a901eb6ffa30b34c76591d67a
 });

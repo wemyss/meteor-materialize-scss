@@ -12,6 +12,7 @@
 @import "{swemyss:materialize-scss}/sass/components/normalize";
 
 // components
+<<<<<<< HEAD
 @import "{swemyss:materialize-scss}/sass/components/global";
 // @import "{swemyss:materialize-scss}/sass/components/material-icons.scss";
 // @import "{swemyss:materialize-scss}/sass/components/icons-material-design";
@@ -39,3 +40,31 @@
 // @import "{swemyss:materialize-scss}/sass/components/date_picker/default.scss";
 // @import "{swemyss:materialize-scss}/sass/components/date_picker/default.date.scss";
 // @import "{swemyss:materialize-scss}/sass/components/date_picker/default.time.scss";
+=======
+@import "components/global";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/date_picker/default";
+@import "components/date_picker/default.date";
+@import "components/date_picker/default.time";
+>>>>>>> 489279f23aaa0c7a901eb6ffa30b34c76591d67a
