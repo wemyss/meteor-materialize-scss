@@ -1,10 +1,9 @@
 // package metadata file for Meteor.js
 
 Package.describe({
-  name: 'swemyss:materialize-scss',  // http://atmospherejs.com/materialize/materialize
+  name: 'swemyss:materialize-scss',
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
-<<<<<<< HEAD
-  version: '1.97.5_3',
+  version: '1.97.6',
   git: 'https://github.com/wemyss/meteor-materialize-scss'
 });
 
@@ -14,7 +13,7 @@ Package.onUse(function(api) {
     api.use([
         'meteor',
         'jquery',
-        'fourseven:scss@3.4.1'
+        'fourseven:scss@3.4.2'
     ]);
     api.imply('jquery', 'client');
 
@@ -35,7 +34,14 @@ Package.onUse(function(api) {
         'sass/components/_collapsible.scss',
         'sass/components/_color.scss',
         'sass/components/_dropdown.scss',
-        'sass/components/_form.scss',
+        'sass/components/forms/_forms.scss',
+        'sass/components/forms/_checkboxes.scss',
+        'sass/components/forms/_file-input.scss',
+        'sass/components/forms/_input-fields.scss',
+        'sass/components/forms/_radio-buttons.scss',
+        'sass/components/forms/_range.scss',
+        'sass/components/forms/_select.scss',
+        'sass/components/forms/_switches.scss',
         'sass/components/_global.scss',
         'sass/components/_grid.scss',
         'sass/components/_materialbox.scss',
@@ -58,42 +64,4 @@ Package.onUse(function(api) {
     ], 'client', {
         isImport: true
     });
-=======
-  version: '0.97.6',
-  git: 'https://github.com/Dogfalo/materialize.git'
-});
-
-Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.0');
-
-  api.use('jquery', 'client');
-  api.imply('jquery', 'client');
-
-  var assets = [
-    'dist/fonts/roboto/Roboto-Bold.ttf',
-    'dist/fonts/roboto/Roboto-Bold.woff',
-    'dist/fonts/roboto/Roboto-Bold.woff2',
-    'dist/fonts/roboto/Roboto-Light.ttf',
-    'dist/fonts/roboto/Roboto-Light.woff',
-    'dist/fonts/roboto/Roboto-Light.woff2',
-    'dist/fonts/roboto/Roboto-Medium.ttf',
-    'dist/fonts/roboto/Roboto-Medium.woff',
-    'dist/fonts/roboto/Roboto-Medium.woff2',
-    'dist/fonts/roboto/Roboto-Regular.ttf',
-    'dist/fonts/roboto/Roboto-Regular.woff',
-    'dist/fonts/roboto/Roboto-Regular.woff2',
-    'dist/fonts/roboto/Roboto-Thin.ttf',
-    'dist/fonts/roboto/Roboto-Thin.woff',
-    'dist/fonts/roboto/Roboto-Thin.woff2',
-  ];
-
-  addAssets(api, assets);
-  
-  api.addFiles([
-    'dist/js/materialize.js',
-    'dist/css/materialize.css'
-  ], 'client');
-
-  api.export('Materialize', 'client');
->>>>>>> 489279f23aaa0c7a901eb6ffa30b34c76591d67a
 });
