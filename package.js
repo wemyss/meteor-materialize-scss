@@ -3,7 +3,7 @@
 Package.describe({
   name: 'swemyss:materialize-scss',
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
-  version: '1.97.6',
+  version: '1.97.6_1',
   git: 'https://github.com/wemyss/meteor-materialize-scss'
 });
 
