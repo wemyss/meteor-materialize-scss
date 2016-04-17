@@ -22,19 +22,19 @@ $materialize-red: (
 
 $red: (
   "base":       #F44336,
-  "lighten-5":  #FFEBEE,
-  "lighten-4":  #FFCDD2,
-  "lighten-3":  #EF9A9A,
-  "lighten-2":  #E57373,
-  "lighten-1":  #EF5350,
-  "darken-1":   #E53935,
+  // "lighten-5":  #FFEBEE,
+  // "lighten-4":  #FFCDD2,
+  // "lighten-3":  #EF9A9A,
+  // "lighten-2":  #E57373,
+  // "lighten-1":  #EF5350,
+  // "darken-1":   #E53935,
   "darken-2":   #D32F2F,
   "darken-3":   #C62828,
   "darken-4":   #B71C1C,
-  "accent-1":    #FF8A80,
-  "accent-2":    #FF5252,
-  "accent-3":    #FF1744,
-  "accent-4":    #D50000
+  // "accent-1":    #FF8A80,
+  // "accent-2":    #FF5252,
+  // "accent-3":    #FF1744,
+  // "accent-4":    #D50000
 );
 
 $pink: (
@@ -107,36 +107,36 @@ $indigo: (
 
 $blue: (
   "base":       #2196F3,
-  "lighten-5":  #E3F2FD,
-  "lighten-4":  #BBDEFB,
-  "lighten-3":  #90CAF9,
+  // "lighten-5":  #E3F2FD,
+  // "lighten-4":  #BBDEFB,
+  // "lighten-3":  #90CAF9,
   "lighten-2":  #64B5F6,
   "lighten-1":  #42A5F5,
   "darken-1":   #1E88E5,
-  "darken-2":   #1976D2,
+  // "darken-2":   #1976D2,
   "darken-3":   #1565C0,
   "darken-4":   #0D47A1,
-  "accent-1":    #82B1FF,
+  // "accent-1":    #82B1FF,
   "accent-2":    #448AFF,
-  "accent-3":    #2979FF,
-  "accent-4":    #2962FF
+  // "accent-3":    #2979FF,
+  // "accent-4":    #2962FF
 );
 
 $light-blue: (
   "base":       #03a9f4,
-  "lighten-5":  #e1f5fe,
-  "lighten-4":  #b3e5fc,
-  "lighten-3":  #81d4fa,
+  // "lighten-5":  #e1f5fe,
+  // "lighten-4":  #b3e5fc,
+  // "lighten-3":  #81d4fa,
   "lighten-2":  #4fc3f7,
   "lighten-1":  #29b6f6,
   "darken-1":   #039be5,
   "darken-2":   #0288d1,
   "darken-3":   #0277bd,
-  "darken-4":   #01579b,
-  "accent-1":    #80d8ff,
-  "accent-2":    #40c4ff,
-  "accent-3":    #00b0ff,
-  "accent-4":    #0091ea
+  // "darken-4":   #01579b,
+  // "accent-1":    #80d8ff,
+  // "accent-2":    #40c4ff,
+  // "accent-3":    #00b0ff,
+  // "accent-4":    #0091ea
 );
 
 $cyan: (
@@ -158,36 +158,36 @@ $cyan: (
 
 $teal: (
   "base":       #009688,
-  "lighten-5":  #e0f2f1,
-  "lighten-4":  #b2dfdb,
-  "lighten-3":  #80cbc4,
+  // "lighten-5":  #e0f2f1,
+  // "lighten-4":  #b2dfdb,
+  // "lighten-3":  #80cbc4,
   "lighten-2":  #4db6ac,
   "lighten-1":  #26a69a,
   "darken-1":   #00897b,
   "darken-2":   #00796b,
   "darken-3":   #00695c,
-  "darken-4":   #004d40,
-  "accent-1":    #a7ffeb,
-  "accent-2":    #64ffda,
-  "accent-3":    #1de9b6,
-  "accent-4":    #00bfa5
+  // "darken-4":   #004d40,
+  // "accent-1":    #a7ffeb,
+  // "accent-2":    #64ffda,
+  // "accent-3":    #1de9b6,
+  // "accent-4":    #00bfa5
 );
 
 $green: (
   "base":       #4CAF50,
-  "lighten-5":  #E8F5E9,
-  "lighten-4":  #C8E6C9,
-  "lighten-3":  #A5D6A7,
-  "lighten-2":  #81C784,
-  "lighten-1":  #66BB6A,
+  // "lighten-5":  #E8F5E9,
+  // "lighten-4":  #C8E6C9,
+  // "lighten-3":  #A5D6A7,
+  // "lighten-2":  #81C784,
+  // "lighten-1":  #66BB6A,
   "darken-1":   #43A047,
   "darken-2":   #388E3C,
-  "darken-3":   #2E7D32,
-  "darken-4":   #1B5E20,
-  "accent-1":    #B9F6CA,
-  "accent-2":    #69F0AE,
-  "accent-3":    #00E676,
-  "accent-4":    #00C853
+  // "darken-3":   #2E7D32,
+  // "darken-4":   #1B5E20,
+  // "accent-1":    #B9F6CA,
+  // "accent-2":    #69F0AE,
+  // "accent-3":    #00E676,
+  // "accent-4":    #00C853
 );
 
 $light-green: (
@@ -320,14 +320,14 @@ $blue-grey: (
 
 $grey: (
   "base":       #9e9e9e,
-  "lighten-5":  #fafafa,
-  "lighten-4":  #f5f5f5,
-  "lighten-3":  #eeeeee,
+  // "lighten-5":  #fafafa,
+  // "lighten-4":  #f5f5f5,
+  // "lighten-3":  #eeeeee,
   "lighten-2":  #e0e0e0,
-  "lighten-1":  #bdbdbd,
+  // "lighten-1":  #bdbdbd,
   "darken-1":   #757575,
   "darken-2":   #616161,
-  "darken-3":   #424242,
+  // "darken-3":   #424242,
   "darken-4":   #212121
 );
 
@@ -338,25 +338,25 @@ $shades: (
 );
 
 $colors: (
-  "materialize-red": $materialize-red,
+  // "materialize-red": $materialize-red,
   "red": $red,
-  "pink": $pink,
-  "purple": $purple,
-  "deep-purple": $deep-purple,
-  "indigo": $indigo,
+  // "pink": $pink,
+  // "purple": $purple,
+  // "deep-purple": $deep-purple,
+  // "indigo": $indigo,
   "blue": $blue,
   "light-blue": $light-blue,
-  "cyan": $cyan,
+  // "cyan": $cyan,
   "teal": $teal,
   "green": $green,
-  "light-green": $light-green,
-  "lime": $lime,
-  "yellow": $yellow,
-  "amber": $amber,
-  "orange": $orange,
-  "deep-orange": $deep-orange,
-  "brown": $brown,
-  "blue-grey": $blue-grey,
+  // "light-green": $light-green,
+  // "lime": $lime,
+  // "yellow": $yellow,
+  // "amber": $amber,
+  // "orange": $orange,
+  // "deep-orange": $deep-orange,
+  // "brown": $brown,
+  // "blue-grey": $blue-grey,
   "grey": $grey,
   "shades": $shades
 );
@@ -367,19 +367,21 @@ $colors: (
 @each $color_name, $color in $colors {
   @each $color_type, $color_value in $color {
     @if $color_type == "base" {
-      .#{$color_name} {
-        background-color: $color_value !important;
-      }
+      // .#{$color_name} {
+      //   background-color: $color_value !important;
+      // }
       .#{$color_name}-text {
         color: $color_value !important;
       }
     }
     @else {
-      .#{$color_name}.#{$color_type} {
-        background-color: $color_value !important;
-      }
-      .#{$color_name}-text.text-#{$color_type} {
-        color: $color_value !important;
+      // .#{$color_name}.#{$color_type} {
+      //   background-color: $color_value !important;
+      // }
+      @if $color_name != "shades" {
+        .#{$color_name}-text.text-#{$color_type} {
+          color: $color_value !important;
+        }
       }
     }
   }
@@ -387,9 +389,9 @@ $colors: (
 
 // Shade classes
 @each $color, $color_value in $shades {
-  .#{$color} {
-    background-color: $color_value !important;
-  }
+  // .#{$color} {
+  //   background-color: $color_value !important;
+  // }
   .#{$color}-text {
     color: $color_value !important;
   }

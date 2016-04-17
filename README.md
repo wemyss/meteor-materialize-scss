@@ -5,6 +5,8 @@ $ meteor add swemyss:materialize-scss
 ```
 
 # SCSS
+Bare minimal version of Materialize
+
 Add the following lines to your last-loaded scss file (E.G. main.scss):
 ```
 // If you want to override materialize sass variables you can uncomment the following:
